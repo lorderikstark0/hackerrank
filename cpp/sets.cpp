@@ -14,8 +14,7 @@ int main(){
   while(q-->0){
     int y , x;
     cin >> y >> x;
-
-
+  order.insert(pair<int ,char>(y,x));
   }
   return 0;
 }
